@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:qr="clr-namespace:Xam.Forms;assembly=Xam.Forms.QRCode"
+    x:Class="Xam.Forms.QRCode.Sample.MainPage">
+
+    <qr:QRCode 
+            Content="https://github.com/mono/SkiaSharp"
+            Color="Maroon" 
+            Level="H" 
+            WidthRequest="400" 
+            HeightRequest="400" 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    
+</ContentPage>
